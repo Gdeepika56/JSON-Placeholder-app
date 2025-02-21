@@ -20,8 +20,10 @@ function PostDetail() {
     if (!post) return <p>Loading.....</p>;
 
     return (
+        
         <div className="container">
-            <h1>{post.title}</h1>
+            <h1>Post Details</h1>
+            <h2>{post.title}</h2>
             <p>{post.body}</p>
         </div>
     );

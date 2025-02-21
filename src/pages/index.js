@@ -17,7 +17,7 @@ function Home() {
       <h1>Posts</h1>
       <ul>
         {posts.map(post => (
-          <li key={post.id}>
+          <li key={post.id} className='hex-bullet'>
             <Link href={`/posts/${post.id}`}>
               {post.title}
             </Link>
