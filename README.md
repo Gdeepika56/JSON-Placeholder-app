@@ -1,23 +1,39 @@
 # JSON PlaceHolder App
 
-This is a simple blog application built with Next.js. It fetches and displays posts from the JSONPlaceholder API. users can click on a post title to view its details.
+This is a simple blog application built with Next.js. It fetches and displays posts from the JSONPlaceholder API. Users can click on a post title to view its details.
 
 # Features
 
-* Fetched posts from an API nad displays them on the homepage.
+* Fetched posts from an API and displays them on the homepage.
 * Dynamic routing to dispaly post details.
-
-
-
+* Styled using a clean and simple CSS layout.
+* Utilizes Next.js built-in routing
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+First, To run the development server:
 
 ```bash
+Clone the repository:
+
+git clone https://github.com/your-username/json-placeholder-app.git
+cd json-placeholder-app
+```
+
+```bash
+Install dependencies:
+
+npm install
+# or
+yarn install
+```
+
+```bash
+Run the development server:
+
 npm run dev
 # or
 yarn dev
@@ -27,15 +43,10 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
 
