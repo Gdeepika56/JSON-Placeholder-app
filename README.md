@@ -1,3 +1,16 @@
+# JSON PlaceHolder App
+
+This is a simple blog application built with Next.js. It fetches and displays posts from the JSONPlaceholder API. users can click on a post title to view its details.
+
+# Features
+
+* Fetched posts from an API nad displays them on the homepage.
+* Dynamic routing to dispaly post details.
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
