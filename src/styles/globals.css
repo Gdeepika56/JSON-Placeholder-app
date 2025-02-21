@@ -4,6 +4,9 @@ body{
   padding: 0;
   box-sizing: border-box;
   background-color: #f4f4f4;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -15,10 +18,29 @@ body{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.post-details{
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.post-details h1{
+  text-align: center;
+  font-size: 24px;
+  color: #222;
+}
+
+
+.post-detail p{
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
 h1{
   text-align: center;
   color: #333;
-
+  margin:15px
 }
 
 ul{
@@ -30,10 +52,8 @@ ul{
 }
 
 li{
-  padding:15px;
-  background: white;
-  border-radius: 6px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  padding:10px; 
 }
 
 
@@ -49,19 +69,22 @@ a:hover{
   text-decoration: underline;
 }
 
-.post-details{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.hex-bullet{
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 
-.post-details h1{
-  font-size: 24px;
-  color: #222;
-
+.hex-bullet::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: #3498db; /* Hexagon color */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
-.post-detail p{
-  font-size: 14px;
-  color: #555;
-}
